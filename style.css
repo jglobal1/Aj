@@ -1,0 +1,652 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+
+:root{
+    --black: #2E2E2E;
+}
+
+
+*{
+    font-family:"Dosis", sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    transition: all 0.4s  cubic-bezier(.43, 1.1,.62, 1.08);
+    text-transform: capitalize;
+}
+
+
+* > img{
+    user-select: none;
+    pointer-events: none;
+}
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+body{
+    margin: 0 auto; /* Centers the body horizontally */
+    max-width: 1400px; /* Sets a maximum width for the body content */
+}
+
+
+header .container{
+    display: flex;
+    height: 100vh;
+}
+
+
+.logo img{
+    max-width: 100%; 
+    height: auto;
+    background: #F4F4F0;
+}
+
+header .volume{
+    position: relative;
+    left: 96%;
+    
+}
+
+
+
+/* section */
+
+section .second-container{
+    border: 3px solid #000;
+}
+
+ 
+section .container-main{
+    display: flex;
+    background: #F4F4F0;    
+}
+
+section .text-box{
+    display: flex;
+   
+    background-color: white;
+}
+
+section .inner{
+    width: 100%;
+    
+}
+
+section .bx{
+    width: 60%;
+    height: auto;
+    border: 3px solid #000;
+    padding-bottom: 15px;
+}
+
+section .bx-1{ 
+    border: 3px solid #000;
+    width: 40%;
+}
+
+section .bx p{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 69.6px;
+}
+
+section .social{
+    width: 290px;
+    text-align: center;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+
+
+section .img-box{
+    border: 3px solid #000;
+}
+
+section .img-box img{
+    height: 100%;
+    width: 100%;
+}
+
+
+section .Super-charge{
+    display: none;
+}
+
+section .Supercharge{
+    width: 50rem;
+    padding-top: 60px;
+    padding-left: 70px;
+}
+
+section .start{
+    font-size: 18px;
+    line-height: 28.15px;
+    font-weight: 300;
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+section .mail{
+    display: flex;
+    margin-left: 70px;
+}
+
+section .type{
+    width: 30%;
+}
+
+section .input1{
+    width: 250px;
+    height: 60px;
+    padding: 8px;
+    left: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+section .join{
+    display: none;
+}
+
+
+section .sign{
+    font-size: 13px;
+    line-height: 28.15px;
+    font-weight: 300;
+    padding-left: 70px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+section .checkbox{
+    display: none;
+}
+
+section .click{
+    display: none;
+}
+
+/* secion 2 */
+.section2 .flex{
+    display: flex;
+    width: 100%;
+    background: #60FFBD;
+    border-top: 3px solid #000;  
+    border-bottom: 3px solid #000;
+
+}
+  
+
+.section2 .frame{
+    width: 100%;
+    text-align: center;
+    border-top: 3px solid #000;   
+
+}
+
+.section2 .frame-box{
+    padding-top: 12px;
+    background: #F4F4F0;
+
+}
+
+.section2 .creative{
+    display: none;
+}
+
+
+.section2 .source img{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    left: 50%;
+    top: 20%;
+}
+
+.section2 .source{
+    text-align: center;
+    background: #60FFBD;
+    border-left: 3px solid #000; 
+
+}
+
+.section2 .launch{
+    display: none;
+}
+
+.dont{
+    padding-top: 40px;
+    padding-left: 20px;
+    width: ;
+}
+
+.section2 .text-img{
+    background: #FDCF96;
+    width: 40%;
+    border-top: 3px solid #000;  
+    
+}
+
+.section2 .discount{
+    display: none;
+}
+
+
+
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #F4F4F0;
+}
+
+footer .inner-foot{
+    display: flex;
+    width: 350px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+
+footer .inner-foot p{
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29.33px;
+    
+}
+
+footer .reserved{
+    padding: 20px;
+}
+
+footer .reserved p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29.33px;
+}
+
+footer.icon{
+    padding-top: 20px;
+}
+
+footer .icon-mobile{
+    display: none;
+}
+
+.footer .icon-mobile{
+    display: none;
+}
+
+
+
+
+/* <600px, 601px, 768px, 992px, 1200px */
+
+/* media queries */
+
+@media (max-width:600px), (max-width:601px), (max-width:601px), (max-width:768px){
+    .logo img{
+        max-width: 60%; 
+        height: auto;
+        background: #F4F4F0;
+        padding-left: px;
+        padding-top: px;
+       margin-left: 15px;
+       margin-top: 15px;
+    }
+
+    header{
+        width: 100%;
+        
+    }
+
+    header .volume{
+        
+        display: none;
+        
+    }
+
+
+    section .second-container{
+        
+        display: block;
+    }
+    
+     
+    section .container-main{
+        display: block;
+        background: #F4F4F0;    
+        border-top: 3px solid #000;
+    }
+    
+    section .text-box{
+        display: none;
+       
+        background-color: white;
+    }
+
+  
+    
+    section .inner{
+        width: 100%;
+        
+    }
+    
+    section .bx{
+        width: 60%;
+        height: auto;
+        border: 3px solid #000;
+        padding-bottom: 15px;
+    }
+    
+    section .bx-1{ 
+        border: 3px solid #000;
+        width: 40%;
+    }
+    
+    section .bx p{
+        font-size: 48px;
+        text-align: center;
+        font-weight: 300;
+        line-height: 69.6px;
+    }
+    
+    section .social{
+        width: 290px;
+        text-align: center;
+        padding-left: 50px;
+        padding-top: 15px;
+        display: none;
+    }
+    
+    
+    section .img-box{
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+        border-left: none;
+        border-right: none;
+    }
+    
+    section .img-box img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    section .Supercharge{
+       
+        display: none;
+       
+    }
+
+    section .Super-charge{
+        display: block;
+        padding-top: 30px;
+        width: 90%;
+        padding: 20px;
+        padding-left: 5px;
+        margin-left: 20px;
+    }
+
+    .main-super{
+        display: block;
+        border: none;
+    }
+
+
+    
+    section .start{
+        font-size: 12px;
+        line-height: 17.4px;
+        font-weight: 300;
+        padding-left: 24px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    
+    section .mail{
+        display: block;
+        left: -40px;
+        position: relative;
+    }
+    
+    section .type{
+        margin-bottom: 10px;
+    }
+    
+    section .input1{
+        width: 250px;
+        height: 30px;
+        padding: 8px;
+        border: 1px solid #000;
+        border-radius: 4px;
+    }
+    
+    section .join-site{
+        display: none;
+        
+    }  
+
+    section .join{
+        display: block;
+        width: 250px;
+        height: 30px;
+    }
+
+    input[type="checkbox"] {
+        width: 18px;
+        height: 20px;
+        cursor: pointer;
+        border: 2px solid black;
+    }
+    
+    
+    section .sign{
+        display: none;
+    }
+    
+    section .click{
+        display: block;
+        font-size: 10px;
+        line-height: 28.15px;
+        font-weight: 300;
+        padding-left: 60px;
+        padding-top: 16px;
+        padding-bottom: 25px;
+    }
+
+    section .checkbox{
+        display:block;
+        position: relative;
+        left: 30px;
+        bottom: 49px;
+        
+    }
+    
+    
+    /* secion 2 */
+    .section2 .flex{
+        display: block;
+        width: 100%;
+        background: #FDCF96;
+        border-top: 3px solid #000;  
+        border-bottom: 3px solid #000;
+    
+    }
+      
+    
+    .section2 .frame{
+        width: 100%;
+        text-align: center;
+        border-top: none;   
+    
+    }
+    
+    .section2 .frame-box{
+        display: none;    
+    }
+    
+    
+.section2 .creative{
+    display: block;
+    padding-top: 12px;
+    background: #F4F4F0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 43.5px;
+}
+    
+    .section2 .source img{
+        width: 60%;
+        height: 90%;
+        position: relative;
+        left: 8%;
+        top: 20%;
+        padding: 15px;
+    }
+    
+    .section2 .source{
+        text-align: center;
+        background: #60FFBD;
+        border-left: none; 
+    
+    }
+    
+    
+    .group1 img{
+       display: block;
+       width: 240px;
+       position: relative;
+       left: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .section2 .text-img{
+        background: #FDCF96;
+        width: 40%;
+        border-top: none;  
+        
+    }
+    
+    .section2 .launch1{
+        display: none;
+    }
+    
+    .section2 .launch{
+        display: block;
+        position: relative;
+        left: 40px;
+    }
+    
+    .section2 .discount1{
+        display: none;
+    }
+    
+    .section2 .discount{
+        display: block;
+        width: 250px;
+    }
+    
+
+        /* footer */
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        background-color: #F4F4F0;
+    }
+
+    footer .inner-foot{
+        display: flex;
+        width: 350px;
+        padding: 20px;
+        justify-content: space-evenly;
+    }
+
+
+    footer .inner-foot p{
+        display: flex;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 29.33px;
+        
+    }
+
+    footer .reserved{
+        padding: 20px;
+    }
+
+    footer .reserved p{
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 29.33px;
+    }
+
+    footer.icon{
+        padding-top: 20px;
+        display: none;
+    }
+
+    footer .icon .icon-site{
+        display: none;
+    }
+
+    footer .icon-mobile{
+        display: block;
+        padding-top: 30px;
+        width: 60px;
+    }
+
+    footer .foot{
+        display: none;
+    }
+
+}
+
+
+
+
+@media (max-width:601px){
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px){
+   
+}
+
+
+
+@media (max-width:991px){
+
+}
+
+
+
+
+
+@media (max-width:450px){
+    
+}
